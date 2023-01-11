@@ -1,6 +1,6 @@
 import gradio as gr
 import openai
-openai.api_key = "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"
+openai.api_key = "XXXXX"
 def openai_chatbot(prompt):
     response = openai.Completion.create(
     model="text-davinci-003",
